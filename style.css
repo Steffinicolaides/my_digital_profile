@@ -89,7 +89,7 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 }
 @media(max-width: 760px){
 	.container{
-		width: 600px;
+		width: 600px; 
 	}
 	#links{
 		padding-left: 212px;
@@ -102,17 +102,30 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 	.container{
 		width: 400px;
 	}
-	.card-pinkshadow{
+	.card-pinkshadow li{
 		width: 400px;
 	}
-	#aboutme{
+	#aboutme li{
 		width: 400px;
+		text-align: center;
 	}
-	#links{
-		padding-left: 212px;
+	#aboutme ul{
+		width: 400px;
+		text-align: center;
+	}
+	.flotteleft p{
+		float: none;
+	}
+	.flotteright p{
+		float: none;
+	}
+	#links li{
+		padding-left: 0px;
+		margin-left: 0px;
+		width: 400px;
 	}
 	.table-center{
-		margin: 25px auto;
+		margin: 15px auto;
 	}
 	.padding-spaceleft{
 		padding: 0px;
@@ -191,6 +204,12 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 #aboutme{
 	list-style: none;
 	width: 500px;
+}
+#pictolink{
+	text-align: center;
+}
+#links li{
+	text-align: center;
 }
 
 /* table style */
