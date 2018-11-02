@@ -113,25 +113,25 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 		width: 400px;
 		text-align: center;
 	}
-	.flotteleft p{
-		float: none;
-	}
-	.flotteright p{
-		float: none;
-	}
 	#links li{
 		padding-left: 0px;
 		margin-left: 0px;
-		width: 400px;
 	}
 	.table-center{
 		margin: 15px auto;
 	}
-	.padding-spaceleft{
-		padding: 0px;
+	.version500px{
+		width: 80px;
+		height: 60px;
 	}
-	.padding-spaceright{
-		padding: 0px;
+	h3 {
+		font-size: 9px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+	.list-inline i{
+		align-items: center;
 	}
 }
 
@@ -152,18 +152,6 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 
 /* about me text & image style */
 
-.flotteleft{
-	float: left;
-}
-.flotteright{
-	float: right;
-}
-.padding-spaceright{
-	padding: 0px 40px 0px 0px;
-}
-.padding-spaceleft{
-	padding: 0px 0px 0px 40px;
-}
 #aboutme{
 	width: 300px;
 	padding-top: 0.4px;
@@ -173,7 +161,7 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 	padding-right: 90px;
 }
 #border-picture{
-	border-radius: 30px;
+	border-radius: 50%;
 }
 
 /* links style */
