@@ -37,16 +37,8 @@ h5{
 	font-family: Raleway, sans serif;
 	font-weight: normal;
 	letter-spacing: 2px;
-	text-align: right;
+	text-align: center;
 	margin-bottom: 0px;
-}
-h5b{
-	color: #005792;
-	font-size: 14px;
-	font-family: Raleway, sans serif;
-	font-weight: normal;
-	letter-spacing: 2px;
-	text-align: left;
 }
 body{
 	color: #434343;
@@ -73,10 +65,12 @@ a:hover{
 /* main style */
 
 .card-pinkshadow{
-background: white;
-padding: 10px 60px 30px 60px;
-border-radius: 10px;
-box-shadow: 0 10px 30px rgba(195,180,210,1);
+	background: white;
+	padding: 10px 60px 30px 60px;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(195,180,210,1);
+	text-align: center;
+	margin: 20px 0px;
 	}
 .container{
 	width: 700px;
@@ -96,7 +90,7 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 	}
 	.table-center{
 		margin: 20px auto;
-	}
+	}	
 }
 @media(max-width: 500px){
 	.container{
@@ -105,24 +99,15 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 	.card-pinkshadow li{
 		width: 400px;
 	}
-	#aboutme li{
-		width: 400px;
-		text-align: center;
-	}
-	#aboutme ul{
-		width: 400px;
-		text-align: center;
-	}
-	#links li{
-		padding-left: 0px;
-		margin-left: 0px;
-	}
 	.table-center{
 		margin: 15px auto;
 	}
 	.version500px{
 		width: 80px;
 		height: 60px;
+	}
+		#links {
+		padding-left: 112px;
 	}
 	h3 {
 		font-size: 9px;
@@ -152,17 +137,13 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 
 /* about me text & image style */
 
-#aboutme{
-	width: 300px;
-	padding-top: 0.4px;
+#aboutme {
+	list-style: none;
+	text-align: center;
 }
-#aboutmediv{
-	padding-left: 90px;
-	padding-right: 90px;
-}
-#border-picture{
+.border-picture{
 	border-radius: 50%;
-}
+}	
 
 /* links style */
 
@@ -188,10 +169,6 @@ box-shadow: 0 10px 30px rgba(195,180,210,1);
 }
 .list-inline i{
 	transition:color 0.3s ease;
-}
-#aboutme{
-	list-style: none;
-	width: 500px;
 }
 #pictolink{
 	text-align: center;
