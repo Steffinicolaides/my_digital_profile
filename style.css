@@ -45,7 +45,7 @@ body{
 	font-size: 14px;
 	font-family: Raleway, sans serif;
 	font-weight: lighter;
-	background-image: url(images/wallpaper.jpg);
+	background-image: url(images/wallpaper2.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -68,10 +68,10 @@ a:hover{
 /* main style */
 
 .card-pinkshadow{
-	background: rgba(255,0,0,0.7);
+	background: rgba(255,255,255,0.8);
 	padding: 10px 60px 30px 60px;
 	border-radius: 7px;
-	box-shadow: 0 10px 30px rgba(255,0,0,0.8);
+	box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 	text-align: center;
 	margin: 20px 0px;
 	}
