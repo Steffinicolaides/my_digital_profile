@@ -70,7 +70,7 @@ a:hover{
 .card-pinkshadow{
 	background: rgba(255,255,255,0.8);
 	padding: 10px 60px 30px 60px;
-	border-radius: 7px;
+	border-radius: 4px;
 	box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 	text-align: center;
 	margin: 20px 0px;
