@@ -65,7 +65,7 @@ a:hover{
 /* main style */
 
 .card-pinkshadow{
-	background: white;
+	background: rgba(255,0,0,0.7);
 	padding: 10px 60px 30px 60px;
 	border-radius: 7px;
 	box-shadow: 0 10px 30px rgba(195,180,210,0.8);
@@ -73,6 +73,7 @@ a:hover{
 	margin: 20px 0px;
 	}
 .container{
+	background-image: url(images/wallpaper.jpg);
 	width: 700px;
 	margin: 30px auto;
 }
